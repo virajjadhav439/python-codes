@@ -1,4 +1,4 @@
-#20240802660
+# 20240802812
 n = input("Enter A number to check Armstrong : ")
 num_sum = 0
 for i in n:

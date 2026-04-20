@@ -1,12 +1,12 @@
-# --------E--------
-# ------E-D-E------
-# ----E-D-C-D-E----
-# --E-D-C-B-C-D-E--
-# E-D-C-B-A-B-C-D-E
-# --E-D-C-B-C-D-E--
-# ----E-D-C-D-E----
-# ------E-D-E------
-# --------E--------
+# --------e--------
+# ------e-d-e------
+# ----e-d-c-d-e----
+# --e-d-c-b-c-d-e--
+# e-d-c-b-a-b-c-d-e
+# --e-d-c-b-c-d-e--
+# ----e-d-c-d-e----
+# ------e-d-e------
+# --------e--------
 
 n = 5
 
@@ -17,17 +17,17 @@ for i in range(n):
 
     # descending letters
     for j in range(i + 1):
-        if  65+n-j == 65+n and i==0:
-            print(chr(65 + n - j - 1), end="")
+        if  97+n-j == 97+n and i==0:
+            print(chr(97 + n - j - 1), end="")
         else:
-            print(chr(65 + n - j - 1), end="-")
+            print(chr(97 + n - j - 1), end="-")
 
     # ascending letters
     for j in range(i - 1, -1, -1):
-        if  65+n-j == 65+n:
-            print(chr(65 + n - j - 1), end="")
+        if  97+n-j == 97+n:
+            print(chr(97 + n - j - 1), end="")
         else:
-            print(chr(65 + n - j - 1), end="-")
+            print(chr(97 + n - j - 1), end="-")
 
     # right dashes
     print("--" * (n - i - 1))
@@ -37,16 +37,16 @@ for i in range(n - 2, -1, -1):
     print("--" * (n - i - 1), end="")
 
     for j in range(i + 1):
-        if  65+n-j == 65+n and i==0:
-            print(chr(65 + n - j - 1), end="")
+        if  97+n-j == 97+n and i==0:
+            print(chr(97 + n - j - 1), end="")
         else:
-            print(chr(65 + n - j - 1), end="-")
+            print(chr(97 + n - j - 1), end="-")
 
 
     for j in range(i - 1, -1, -1):
-        if  65+n-j == 65+n:
-            print(chr(65 + n - j - 1), end="")
+        if  97+n-j == 97+n:
+            print(chr(97 + n - j - 1), end="")
         else:
-            print(chr(65 + n - j - 1), end="-")
+            print(chr(97 + n - j - 1), end="-")
 
     print("--" * (n - i - 1))

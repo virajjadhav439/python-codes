@@ -1,5 +1,6 @@
-# prime number 
-# 20240802675
+# prime number
+# Name : Viraj Jadhav
+# 20240802660
 num = int(input("emter number : "))
 count = 0 
 for i in range (1,num+1):

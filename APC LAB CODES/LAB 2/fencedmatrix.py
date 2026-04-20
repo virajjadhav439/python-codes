@@ -1,5 +1,6 @@
 # fenced matrix 
-# 20240802675
+# Name : Viraj Jadhav
+# 20240802660
 m = int(input("Enter the Number of rows:"))
 n = int(input("Enter the Number of cols:"))
 

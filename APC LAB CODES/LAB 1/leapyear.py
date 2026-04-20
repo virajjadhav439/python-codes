@@ -1,5 +1,6 @@
 # leap year 
-# 20240802675
+# Name : Viraj Jadhav
+# 20240802660
 year = int(input("enter the year :"))
 
 rem1 = year % 4

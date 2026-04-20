@@ -1,4 +1,4 @@
-# 20240802660
+# 20240802812
 n=int(input("Enter a Number To Create Pascals Triangle : "))
 def print_Row(row_matrix):
     for i in row_matrix:

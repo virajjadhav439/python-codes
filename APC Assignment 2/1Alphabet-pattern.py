@@ -1,4 +1,4 @@
-# 20240802660
+# 20240802812
 n = int(input("Enter the number of your choice : "))
 Character = 97
 # upper half

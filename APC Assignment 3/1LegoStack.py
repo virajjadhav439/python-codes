@@ -1,3 +1,4 @@
+# PRN: 2024082681
 def lego_stack(blocks):
     left = 0
     right = len(blocks) - 1

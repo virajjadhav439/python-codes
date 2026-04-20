@@ -1,7 +1,8 @@
+
 from functools import reduce
 
-n = 5
+n = int(input("Enter a number: "))
 
-factorial = reduce(lambda a, b: a * b, range(1, n + 1))
+factorial = reduce(lambda x, y: x * y, range(1, n + 1), 1)
 
-print(factorial)
+print("Factorial:", factorial)

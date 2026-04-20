@@ -1,5 +1,6 @@
 # string vowels finding
-# 20240802675
+# Name : Viraj Jadhav
+# 20240802660
 s = input("enter the string : ")
 vowels_list =["a","A","e","E","i","I","o","O","u","U"]
 vowels = "" 

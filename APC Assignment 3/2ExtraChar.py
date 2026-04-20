@@ -1,3 +1,4 @@
+# PRN: 2024082738
 def find_extra_char(s1, s2):
     result = 0
 

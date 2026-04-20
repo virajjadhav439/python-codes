@@ -1,4 +1,4 @@
-# 20240802660
+# 20240802812
 day_vac = eval(input("enter the input : " ))
 
 weekdays = [1,2,3,4,5]

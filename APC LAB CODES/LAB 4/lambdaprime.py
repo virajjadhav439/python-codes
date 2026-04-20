@@ -1,20 +1,6 @@
-ls =eval(input("enter the list "))
 
-is_prime = lambda n: (
-    False if n <= 1 else 
-    check_prime(n)
-)
+numbers = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 15, 17]
 
-def check_prime(n):
-    for i in range(2,n):
-        if n % i//2+1 == 0:
-            return False 
-        return True
-    
-primes =[]
+primes = list(filter(lambda x: x > 1 and all(x % i != 0 for i in range(2, x)), numbers))
 
-for n in ls:
-    if is_prime(n):
-        primes.append(n)
-print(primes)
-
+print("Prime numbers:", primes)
