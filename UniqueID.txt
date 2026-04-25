@@ -1,0 +1,3 @@
+641566A2,Normal Bike / Scooty,1,20
+417D7A20,High CC Bike (500cc+),2,50
+5F4683B5,Car,5,100
